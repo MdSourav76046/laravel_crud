@@ -37,6 +37,6 @@
             <div class=".text-danger">{{$errors -> first('price')}}</div>
         </div>
         <a href="{{route('books.index')}}" class="btn btn-danger"> Back </a>
-        <button type="submit" class="btn btn-success">Create</button>
+        <button type="submit" class="btn btn-success">Update</button>
 </form>
 @endsection
