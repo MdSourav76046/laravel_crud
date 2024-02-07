@@ -1,0 +1,17 @@
+> First install composer: composer install
+
+
+> create php project: composer create-project --prefer-dist laravel/laravel Book_Store 
+> modify .env and add database name = or copy (cp .env.example .env)
+
+> create migration table = php artisan make:migration create_book_table   
+> edit migration table then run : php migrate
+> make BookFactory = php artisan make:factory BookFactory 
+> create book model :  php artisan make:model Book 
+> seed databse : php artisan db:seed  
+
+// databse work is done
+
+> make BookController = php artisan make:controller BookController 
+> query book query to limit 10  = Book::take(10) -> get();
+> 
